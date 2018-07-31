@@ -45,7 +45,7 @@ public class Tutorial5 extends Activity implements SurfaceHolder.Callback, OnSee
     private int desired_position;         // Position where the users wants to seek to
     private String mediaUri;              // URI of the clip being played
 
-    private final String defaultMediaUri = "http://docs.gstreamer.com/media/sintel_trailer-368p.ogv";
+    private final String defaultMediaUri = "rtsp://192.168.0.107:8554/video.mp4";
 
     static private final int PICK_FILE_CODE = 1;
     private String last_folder;
