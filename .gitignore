@@ -1,5 +1,9 @@
+*.iml
+*.so
 .gradle
-.idea
-app/build
-app/gst-build-armeabi
-build
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
